@@ -1,2 +1,9 @@
 datos <- read.csv("datos.csv")
 head(datos)
+nrow(datos)
+datos$casos
+mean(datos$casos)
+datos2 <- read.csv("datos.csv", header = FALSE
+nrow(datos2)
+head(datos2)
+mean(datos2$v2)
